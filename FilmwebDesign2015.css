@@ -1,5 +1,108 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("filmweb.pl") {
-
+  
+  /* Body */
+  .bodyWrapper {
+    border: 1px solid !important;
+    border-radius: 10px 10px 0 0 !important;
+    background: #cccccc !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px !important;
+  }
+  
+  /*
+   * FORUM
+   */
+  .post {
+    border: 1px solid !important;
+    background: #fff !important;
+    border-radius: 0px 2px 2px 2px !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .post.firstPost {
+    padding-top: 0px !important;
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+    background: #ffeec6 !important;
+    width: auto !important;
+  }
+  
+  .post .userInfo {
+    padding: 0px !important;
+    width: 0px !important; 
+    display: block !important;
+  }
+  
+  /* Header posta */
+  .post .postInfo {
+    /*background: #a61010 !important;*/
+    background: linear-gradient(to bottom, #9a0000, #6d0000) !important;
+    top: 0px !important;
+    border-radius: 0px 1px 0px 0px !important;
+    padding: 1px 4px !important;
+  }
+  
+  .post .postInfo * {
+    color: #dedede !important;
+    font-size: 11px !important;
+  }
+  
+  .post .postInfo .userName {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    color: #fff !important;
+  }
+  
+  /* Nick użytkownika na którego post się odpowiedziało */
+  .post .postInfo a.cap {
+    font-weight: bold !important;
+    font-style: italic;
+  }
+  
+  /* Gwiazda w 'ocenił ten serial na' */
+  .post .postInfo i.fonti-star {
+    color: #edbe00 !important;
+  }
+  
+  .post .postContentAndInfo {
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+  }
+  
+  .post .postText {
+    margin: 4px !important;
+    font-size: 13px !important;
+  }
+  
+  .topicPostItem {
+    padding: 7px 0px 0px !important;
+  }
+  
+  /* Avatar przy postach */
+  .post .pho-47 {
+    border-radius: 3px 0 0 3px !important;
+    border-left: 1px solid !important;
+    border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
+    position: relative !important;
+    right: 48px !important;
+    margin-top: -16px !important;
+  }
+  
+  /* Przycisk 'Odpowiedz' */
+  .post button.reply {
+    border-top: 1px solid !important;
+    border-right: 1px solid !important;
+    border-radius: 0 3px 0 0 !important;
+    border-color: #000 !important;
+    color: #bbb !important;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #9a0000, #6d0000) !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+  }
 }
