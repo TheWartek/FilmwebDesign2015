@@ -5,9 +5,10 @@
   /* Body */
   .bodyWrapper {
     border: 1px solid !important;
-    border-radius: 10px !important;
+    border-radius: 10px 10px 0 0 !important;
     background: #cccccc !important;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px !important;
   }
   
   /*
@@ -16,8 +17,8 @@
   .post {
     border: 1px solid !important;
     background: #fff !important;
-    border-radius: 5px !important;
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+    border-radius: 0px 2px 2px 2px !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
   }
   
   .post.firstPost {
@@ -27,8 +28,9 @@
   }
   
   .post .userInfo {
-    background: #aaa !important;
-    border-radius: 5px 0px 0px 5px !important;
+    padding: 0px !important;
+    width: 0px !important; 
+    display: block !important;
   }
   
   .post .postContentAndInfo {
@@ -39,7 +41,13 @@
   .post .postInfo {
     background: #a61010 !important;
     top: 0px !important;
-    border-radius: 0px 4px 0px 0px !important;
+    border-radius: 0px 1px 0px 0px !important;
+    padding: 1px 4px !important;
+  }
+  
+  .post .postText {
+    margin: 4px !important;
+    font-size: 13px !important;
   }
   
   .topicPostItem {
@@ -48,6 +56,12 @@
   
   /* Avatar przy postach */
   .pho-47 {
-    border-radius: 4px !important;
+    border-radius: 3px 0 0 3px !important;
+    border-left: 1px solid !important;
+    border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
+    position: relative !important;
+    right: 48px !important;
+    margin-top: -17px !important;
   }
 }
