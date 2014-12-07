@@ -33,16 +33,40 @@
     display: block !important;
   }
   
-  .post .postContentAndInfo {
-    border-bottom: none !important;
-    padding-bottom: 5px !important;
-  }
-  
+  /* Header posta */
   .post .postInfo {
-    background: #a61010 !important;
+    /*background: #a61010 !important;*/
+    background: linear-gradient(to bottom, #9a0000, #6d0000) !important;
     top: 0px !important;
     border-radius: 0px 1px 0px 0px !important;
     padding: 1px 4px !important;
+  }
+  
+  .post .postInfo * {
+    color: #dedede !important;
+    font-size: 11px !important;
+  }
+  
+  .post .postInfo .userName {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    color: #fff !important;
+  }
+  
+  /* Nick użytkownika na którego post się odpowiedziało */
+  .post .postInfo a.cap {
+    font-weight: bold !important;
+    font-style: italic;
+  }
+  
+  /* Gwiazda w 'ocenił ten serial na' */
+  .post .postInfo i.fonti-star {
+    color: #edbe00 !important;
+  }
+  
+  .post .postContentAndInfo {
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
   }
   
   .post .postText {
@@ -55,7 +79,7 @@
   }
   
   /* Avatar przy postach */
-  .pho-47 {
+  .post .pho-47 {
     border-radius: 3px 0 0 3px !important;
     border-left: 1px solid !important;
     border-top: 1px solid !important;
@@ -63,5 +87,20 @@
     position: relative !important;
     right: 48px !important;
     margin-top: -17px !important;
+  }
+  
+  /* Przycisk 'Odpowiedz' */
+  .post button.reply {
+    border-top: 1px solid !important;
+    border-right: 1px solid !important;
+    border-radius: 0 3px 0 0 !important;
+    border-color: #000 !important;
+    color: #bbb !important;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #9a0000, #6d0000) !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
   }
 }
