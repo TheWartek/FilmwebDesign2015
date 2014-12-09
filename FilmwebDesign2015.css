@@ -117,5 +117,19 @@
     border-bottom: 4px solid rgb(154, 0, 0) !important;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7) !important;
     padding: 5px !important;
+    margin: 0px 0px 15px !important;
+  }
+  
+  .activity .sticker {
+    background: #FFFAE1;
+    border-radius: 3px;
+  }
+  
+  .activity .top-5 {
+    margin-top: 0px !important;
+  }
+  
+  .activity .rolePhoto img {
+    height: 250px !important;
   }
 }
