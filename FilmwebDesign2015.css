@@ -4,8 +4,11 @@
   
   /* Body */
   .bodyWrapper {
-    border: 1px solid !important;
-    border-radius: 10px 10px 0 0 !important;
+    border-top: 1px solid #F0F0F0 !important;
+    border-left: 1px solid #F0F0F0 !important;
+    border-right: 1px solid #666 !important;
+    border-bottom: 1px solid #666 !important;
+    border-radius: 3px 3px 0 0 !important;
     background: #cccccc !important;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     padding: 10px !important;
@@ -25,8 +28,10 @@
     padding-top: 0px !important;
     margin: 0 auto !important;
     margin-top: 10px !important;
+    margin-left: 55px !important;
     background: #ffeec6 !important;
-    width: auto !important;
+    width: 90% !important;
+    
   }
   
   .post .userInfo {
@@ -117,5 +122,88 @@
     border-bottom: 4px solid rgb(154, 0, 0) !important;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7) !important;
     padding: 5px !important;
+    margin: 0px 0px 15px !important;
+  }
+  
+  .activity .sticker {
+    background: #FFFAE1;
+    border-radius: 3px;
+  }
+  
+  .activity .top-5 {
+    margin-top: 0px !important;
+  }
+  
+  .activity .rolePhoto img {
+    height: 250px !important;
+  }
+  
+  /* Mój asystent */
+  .sidebar {
+    margin-left: 40px !important;
+    width: 320px !important;
+  }
+  
+  .dashboardAssistantFilters {
+    margin: 0px !important;
+    margin-bottom: -1px !important;
+  }
+  
+  .dashboardAssistantFilters .link-btn {
+    background: linear-gradient(to bottom, #9a0000, #6d0000) !important;
+    border-right: 1px solid #000 !important;
+    border-top: 1px solid #000 !important;
+    border-bottom: none !important;
+    margin: 0px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    font-size: 11pt !important;
+    line-height: 17pt !important;
+    color: #dedede !important;
+  }
+  
+  .dashboardAssistantFilters .link-btn:first-child {
+    border-radius: 3px 0px 0px 0px !important;
+    border-left: 1px solid #000 !important;
+  }
+  
+  .dashboardAssistantFilters .link-btn:last-child {
+    border-radius: 0px 3px 0px 0px !important;
+  }
+  
+  .dashboardAssistantFilters .link-btn.on {
+    color: #F39A00 !important;
+    font-weight: bold !important;
+    background: linear-gradient(to bottom, #c30000, #8e0000) !important;
+  }
+  
+  .dashboardAssistantFilters .link-btn:hover {
+    background: linear-gradient(to bottom, #c30000, #8e0000) !important;
+  }
+  
+  .dashboardAssistant {
+    border: 1px solid !important;
+    border-radius: 0px 3px 3px 3px !important;
+  }
+  
+  .dashboardAssistant .unreaded {
+    margin: 0px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    border-bottom: 1px solid #888 !important;
+  }
+  
+  .dashboardAssistant .unreaded .element {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  
+  .dashboardAssistant .unreaded:first-child {
+    border-radius: 0px 3px 0px 0px !important
+  }
+  
+  .dashboardAssistant .unreaded:last-child {
+    border-radius: 0px 0px 3px 3px !important;
+    border-bottom: none !important;
   }
 }
