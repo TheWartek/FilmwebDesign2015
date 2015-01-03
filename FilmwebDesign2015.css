@@ -4,8 +4,8 @@
   
   /* Body */
   .bodyWrapper {
-    border-top: 1px solid #dbdbdb !important;
-    border-left: 1px solid #dbdbdb !important;
+    border-top: 1px solid #F0F0F0 !important;
+    border-left: 1px solid #F0F0F0 !important;
     border-right: 1px solid #666 !important;
     border-bottom: 1px solid #666 !important;
     border-radius: 3px 3px 0 0 !important;
@@ -28,8 +28,10 @@
     padding-top: 0px !important;
     margin: 0 auto !important;
     margin-top: 10px !important;
+    margin-left: 55px !important;
     background: #ffeec6 !important;
-    width: auto !important;
+    width: 90% !important;
+    
   }
   
   .post .userInfo {
@@ -137,10 +139,10 @@
   }
   
   /* Mój asystent */
-  /*.sidebar {
+  .sidebar {
     margin-left: 40px !important;
     width: 320px !important;
-  }*/
+  }
   
   .dashboardAssistantFilters {
     margin: 0px !important;
