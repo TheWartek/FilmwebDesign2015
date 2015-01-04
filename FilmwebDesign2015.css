@@ -117,7 +117,7 @@
   
   .activity {
     border-top: 4px solid rgb(154, 0, 0) !important;
-    background: none repeat scroll 0% 0% rgb(255, 255, 255) !important;
+    background: none repeat scroll 0% 0% #fff !important;
     border-radius: 3px !important;
     border-bottom: 4px solid rgb(154, 0, 0) !important;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7) !important;
@@ -182,7 +182,7 @@
   }
   
   .dashboardAssistant {
-    border: 1px solid !important;
+    border: 1px solid #888 !important;
     border-radius: 0px 3px 3px 3px !important;
   }
   
@@ -190,7 +190,37 @@
     margin: 0px !important;
     padding-left: 5px !important;
     padding-right: 5px !important;
-    border-bottom: 1px solid #888 !important;
+    border-bottom: 1px solid #B8B7B7 !important;
+    background: #f6f6f6 !important;
+  }
+  
+  .dashboardAssistant .unreaded:hover {
+    background: #fff !important;
+  }
+  
+  .dashboardAssistant .notifyParent *:not(strong) {
+    font-size: 10pt !important;
+  }
+  
+  .dashboardAssistant .notifyParent strong {
+    font-size: 12pt !important;
+    color: #BD0000 !important;
+  }
+  
+  .dashboardAssistant .notifyParent .cap.s-13.top-5 {
+    color: #000 !important;
+    float: left !important;
+    border-top: 1px solid !important;
+    padding: 3px !important;
+  }
+  
+  .dashboardAssistant .notifyParent:not(.unreaded) {
+    padding-left: 5px !important;
+    background: #d8d8d8 !important;
+  }
+  
+  .dashboardAssistant .notifyParent:not(.unreaded):hover {
+    background: #eee !important;
   }
   
   .dashboardAssistant .unreaded .element {
@@ -198,12 +228,16 @@
     padding-bottom: 5px !important;
   }
   
-  .dashboardAssistant .unreaded:first-child {
+  .dashboardAssistant .notifyParent:first-child {
     border-radius: 0px 3px 0px 0px !important
   }
   
-  .dashboardAssistant .unreaded:last-child {
+  .dashboardAssistant .notifyParent:last-child {
     border-radius: 0px 0px 3px 3px !important;
     border-bottom: none !important;
+  }
+  
+  .dashboardAssistant .followFormToggle {
+    right: 15px !important;
   }
 }
