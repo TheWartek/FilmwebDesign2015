@@ -166,11 +166,6 @@
   }
   
   /* Mój asystent */
-  .sidebar {
-    margin-left: 40px !important;
-    width: 320px !important;
-  }
-  
   .dashboardAssistantFilters {
     margin: 0px !important;
     margin-bottom: -1px !important;
