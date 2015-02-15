@@ -118,7 +118,7 @@
   }
   
   /* Avatar przy postach */
-  .post .pho-47 {
+    .post [class*="pho-"] {
     border-radius: 3px 0 0 3px !important;
     border-left: 1px solid !important;
     border-top: 1px solid !important;
@@ -126,6 +126,10 @@
     position: relative !important;
     right: 48px !important;
     margin-top: -16px !important;
+  }
+    
+  .post [class*="pho-"] > img {
+    border-radius: 3px 0 0 3px !important;
   }
   
   /* Przycisk 'Odpowiedz' */
